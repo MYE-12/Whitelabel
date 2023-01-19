@@ -19,6 +19,7 @@
   "logo_width",
   "navbar_setting_section",
   "navbar_background_color",
+  "container_bg_color",
   "whitelabel_app_name",
   "column_break_7",
   "custom_navbar_title",
@@ -118,11 +119,16 @@
    "fieldtype": "Check",
    "hidden": 1,
    "label": "App Logo Set"
+  },
+  {
+   "fieldname": "container_bg_color",
+   "fieldtype": "Data",
+   "label": "Container Bg Color"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2022-04-20 11:27:44.618584",
+ "modified": "2023-01-18 21:57:06.361175",
  "modified_by": "Administrator",
  "module": "Whitelabel",
  "name": "Whitelabel Setting",
@@ -142,5 +148,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
