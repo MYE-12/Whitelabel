@@ -18,6 +18,7 @@ $(window).on('load', function() {
         if (frappe.boot.whitelabel_setting.container_bg_color) {
             $('.page-container').css('background',frappe.boot.whitelabel_setting.container_bg_color)
         }
+      
         
         if (frappe.boot.whitelabel_setting.custom_navbar_title_style && frappe.boot.whitelabel_setting.custom_navbar_title) {
             $(`<span style=${frappe.boot.whitelabel_setting.custom_navbar_title_style.replace('\n','')} class="hidden-xs hidden-sm">${frappe.boot.whitelabel_setting.custom_navbar_title}</span>`).insertAfter("#navbar-breadcrumbs")
